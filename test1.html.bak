@@ -14,7 +14,7 @@ img.onload = function() {
     var ctx = document.getElementById('c1').getContext('2d');
     ctx.drawImage(img, 0, 0, 1330, 490);	
 }
-img.src = 'tstimg.png';
+img.src = '/image/tstimg.png';
 
 
 var ctx1 = document.getElementById('c2').getContext('2d');
